@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "reactamplified3f6d07f8",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "apie2dfcddd",
+    "apiName": "apie2dfcddd",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactamplified3f6d07f8"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-react-amplified-dev-101639-authRole",
+        "unAuthRoleName": "amplify-react-amplified-dev-101639-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactamplified3f6d07f8",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
